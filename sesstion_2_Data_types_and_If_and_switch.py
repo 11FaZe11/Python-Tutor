@@ -1,5 +1,6 @@
 # ============Ints============
 
+
 x_int = 42      # int
 
 y_int = -73     # int
@@ -14,6 +15,7 @@ print(y_int)    # -73
 
 # ============Floats============
 
+
 x_float = 42.0    # float
 
 y_float = 73.0    # float
@@ -27,6 +29,7 @@ print(y_float)    # 73.0
 
 
 # ============Sting============
+
 
 x_sting = "Hello"     # str
 
@@ -138,6 +141,21 @@ my_list_copy = my_list.copy()
 print(my_list_copy)  # [5, 4, 3, 2, 1]
 
 
+# ============2D List============
+
+food = ["fish", "meat", "vegetables", "fruit"]
+drink = ["water", "juice", "soda", "milk"]
+dessert = ["cake", "ice cream", "cookies", "pie"]
+
+restaurant = [food, drink, dessert]
+
+print(restaurant[0][0])  # fish
+
+print(restaurant[1][1])  # juice
+
+print(restaurant[2][2])  # cookies
+
+
 # ============Tuple============
 
 
@@ -165,7 +183,7 @@ print(x_tuple + y_tuple)    # (1, 2, 3, 4, 5, 'Hello', 'World')
 
 x_dict = {
     "name": "Abdo",
-    "age": 18,
+    "age": 19,
 }    # dict
 
 y_dict = {
@@ -173,7 +191,7 @@ y_dict = {
     "age": 8,
 }    # dict
 
-print(x_dict)    # {'name': 'Abdo', 'age': 18}
+print(x_dict)    # {'name': 'Abdo', 'age': 19}
 
 print(y_dict)    # {'name': 'Malek', 'age': 8}
 
@@ -185,7 +203,7 @@ print(x_dict.keys())    # dict_keys(['name', 'age'])
 
 print(y_dict.values())    # dict_values(['Malek', 8])
 
-print(x_dict.items())    # dict_items([('name', 'Abdo'), ('age', 18)])
+print(x_dict.items())    # dict_items([('name', 'Abdo'), ('age', 19)])
 
 
 
